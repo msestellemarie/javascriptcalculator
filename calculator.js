@@ -1,5 +1,3 @@
-// small + big numbers and keeping them in the screen size
-
 function expression(str) {
   var lastChar = $(".total").text()[$(".total").text().length - 1];
   var strNew = (lastChar.match(/[0-9]/) !== null && str === "0." && $(".total").text() !== "0") ? "." : str;
