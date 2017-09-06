@@ -3,8 +3,13 @@ body {
   font-size: 18px;
   font-weight: bold;
   background-image: url("http://wallpapercave.com/wp/RMdbmli.jpg");
-  background-position: -300px -300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
 }
 
 .container {
